@@ -1,0 +1,111 @@
+.Testimonials{
+    display: flex;
+    padding: 0 2rem;
+    gap: 1rem;
+}
+.left-t{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+.left-t>:nth-child(1){
+    font-weight: bold;
+    color: var(--orange)
+}
+.left-t>:nth-child(2),
+.left-t>:nth-child(3){
+    font-weight: bold;
+    font-size: 3rem;
+}
+.left-t>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.right-t{
+    flex: 1;
+    position: relative;
+}
+.right-t>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    top: 2rem;
+    right: 8rem;
+}
+.right-t>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    background: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+.right-t>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    background: transparent;
+    right: 7rem;
+    top: 2rem;
+    background: var(--planCard);
+}
+.arrows{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    bottom: 1rem;
+    left: 3rem;
+}
+.arrows>img{
+    width: 1.5rem;
+   
+}
+.arrows>img:hover{
+fill: red;
+    cursor: pointer;
+    
+}
+@media  screen and (max-width:768px) {
+    .Testimonials{
+   
+        flex-direction: column;
+    }
+    .right-t{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-t>:nth-child(1),.left-t:nth-child(2){
+        font-size: xx-large;
+    }
+    .right-t>div{
+        display: none;
+        position: relative;
+    }
+    .right-t>img{
+        position: relative;
+        right: 0;
+        align-self: center;
+    }
+    .right-t>:last-child{
+        display: block;
+        bottom: 0;
+        left: 0;
+    }
+    .arrows{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       /* padding: 2rem; */
+    }
+}
