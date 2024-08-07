@@ -5,13 +5,13 @@ import emailjs from '@emailjs/browser';
 const Join = () => {
   const [email, setEmail] = useState('');
   const form = useRef();
-  const [valid,setValid]=useState(false)
+
 
   const sendEmail = (e) => {
    
     e.preventDefault();
     if (email.trim() === '') {
-      setValid(true)
+     
       alert("Please Enter Email")
       return;
     }
@@ -20,7 +20,7 @@ const Join = () => {
       .sendForm('service_oens8nr', 'template_6rlswfp', form.current, 'y8CKq4EoKd633407L')
       .then(
         () => {
-          setValid(false)
+         
           console.log('SUCCESS!');
           setEmail(''); // Clear the input field after successful submission
           alert("Submitted Suceessfully!")
