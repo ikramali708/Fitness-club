@@ -22,8 +22,8 @@ const Header = () => {
         </div>
        ):
        <ul className="header-menu">
-        <li onClick={()=>setMenuopened(false)}>
-          <Link to='hero' span={true} smooth={true}>Home</Link>
+        <li>
+          <Link to='hero' span={true} smooth={true}  onClick={()=>setMenuopened(false)}>Home</Link>
         </li>
         <li > <Link to='programs' span={true} smooth={true} onClick={()=>setMenuopened(false)}>Programs</Link> </li>
         <li>
