@@ -1,4 +1,4 @@
-# 💪 FitClub
+# 💪 Fitness Club
 
 > A modern fitness club landing page focused on delivering an engaging digital experience for fitness businesses.
 
