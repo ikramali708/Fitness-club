@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# 💪 FitClub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A modern fitness club landing page focused on delivering an engaging digital experience for fitness businesses.
 
-## Available Scripts
+### Live Preview
 
-In the project directory, you can run:
+🌐 https://fitness-club-beta.vercel.app
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+FitClub is a responsive landing page designed for a modern fitness brand. The goal of this project was to create a visually appealing website that effectively presents fitness programs, membership plans, testimonials, and business information while maintaining a smooth user experience across all devices.
 
-### `npm test`
+Instead of focusing only on aesthetics, the project emphasizes clean layouts, reusable React components, and responsive design principles.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## What's Included
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✔ Hero section with key statistics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✔ Fitness program showcase
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✔ Membership pricing plans
 
-### `npm run eject`
+✔ Client testimonials
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✔ Trusted partners section
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✔ Call-to-action sections
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✔ Fully responsive layout
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Technology
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Design Goals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project was built with the following objectives:
 
-### Analyzing the Bundle Size
+- Create a modern fitness brand identity.
+- Build reusable React components.
+- Practice responsive web design.
+- Improve UI composition and layout structure.
+- Deliver a smooth browsing experience across desktop, tablet, and mobile devices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Local Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone https://github.com/ikramali708/Fitness-club.git
 
-### Advanced Configuration
+cd fitness-club
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install
 
-### Deployment
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Future Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The current version is a frontend implementation. Future updates may include:
+
+- Member registration
+- Authentication
+- Online membership purchase
+- Trainer profiles
+- Workout scheduling
+- Backend integration
+- Admin dashboard
+
+---
+
+## About
+
+This project is part of my frontend development portfolio and reflects my approach to building clean, responsive, and user-focused web interfaces using React.
+
+If you have any suggestions or feedback, feel free to reach out.
